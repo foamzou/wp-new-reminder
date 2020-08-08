@@ -1,0 +1,12 @@
+{
+	"name": "wp-new-reminder",
+	"description": "A message reminder plugin for wordpress",
+	"autoload": {
+		"psr-4": {
+			"App\\": "Core/"
+		},
+		"files": [
+			"Core/Utils/function.php"
+		]
+	}
+}
